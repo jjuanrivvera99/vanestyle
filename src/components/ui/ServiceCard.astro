@@ -1,0 +1,61 @@
+---
+import type { Service } from '@config/services';
+import { formatPrice } from '@config/services';
+
+export interface Props {
+  service: Service;
+  delay?: number;
+}
+
+const { service, delay = 0 } = Astro.props;
+---
+
+<div
+  class="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-primary-200 group"
+  data-aos="fade-up"
+  data-aos-delay={delay}
+>
+  <div class="flex justify-between items-start mb-3">
+    <h3
+      class="font-heading font-semibold text-lg text-gray-900 group-hover:text-primary-700 transition-colors"
+    >
+      {service.name}
+    </h3>
+    {
+      service.popular && (
+        <span class="bg-accent-100 text-accent-700 text-xs font-semibold px-2.5 py-1 rounded-full">
+          Popular
+        </span>
+      )
+    }
+  </div>
+
+  <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+    {service.description}
+  </p>
+
+  <div class="flex justify-between items-center">
+    <div class="flex items-baseline gap-1">
+      {service.priceFrom && <span class="text-sm text-gray-500">Desde</span>}
+      <span class="font-heading font-bold text-2xl text-primary-700">
+        {formatPrice(service.price)}
+      </span>
+    </div>
+
+    {
+      service.duration && (
+        <span class="text-sm text-gray-500 flex items-center gap-1">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          {service.duration}
+        </span>
+      )
+    }
+  </div>
+</div>

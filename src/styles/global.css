@@ -1,0 +1,89 @@
+@import 'tailwindcss';
+
+/* Custom Tailwind theme */
+@theme {
+  /* Primary - Purple (from logo) */
+  --color-primary-50: #f5f0f5;
+  --color-primary-100: #ebe0eb;
+  --color-primary-200: #d6c2d6;
+  --color-primary-300: #c2a3c2;
+  --color-primary-400: #ad85ad;
+  --color-primary-500: #9b6b9b;
+  --color-primary-600: #7d4f7d;
+  --color-primary-700: #5d2b66;
+  --color-primary-800: #4a2252;
+  --color-primary-900: #37193d;
+
+  /* Accent - Pink/Rose */
+  --color-accent-50: #fdf5f8;
+  --color-accent-100: #fde8f0;
+  --color-accent-200: #fad1e1;
+  --color-accent-300: #f8c8dc;
+  --color-accent-400: #f0a8c4;
+  --color-accent-500: #e88aad;
+  --color-accent-600: #d66b96;
+  --color-accent-700: #c44d7f;
+  --color-accent-800: #a33a66;
+  --color-accent-900: #82294d;
+
+  /* WhatsApp */
+  --color-whatsapp: #25d366;
+  --color-whatsapp-hover: #20bd5a;
+
+  /* Lilac (from logo) */
+  --color-lilac-light: #e8d5e8;
+  --color-lilac: #c8a2c8;
+  --color-lilac-dark: #a87ba8;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-script: 'Dancing Script', cursive;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body defaults */
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+/* Custom utilities */
+@utility container-custom {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+/* AOS animation adjustments */
+[data-aos] {
+  pointer-events: auto !important;
+}
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+}

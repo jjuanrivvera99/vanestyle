@@ -1,0 +1,58 @@
+---
+export interface Props {
+  variant?: 'primary' | 'whatsapp' | 'outline' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  type?: 'button' | 'submit';
+  fullWidth?: boolean;
+  class?: string;
+  external?: boolean;
+}
+
+const {
+  variant = 'primary',
+  size = 'md',
+  href,
+  type = 'button',
+  fullWidth = false,
+  class: className = '',
+  external = false,
+} = Astro.props;
+
+const baseClasses =
+  'inline-flex items-center justify-center font-semibold rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 cursor-pointer';
+
+const variants: Record<string, string> = {
+  primary:
+    'bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-500 shadow-lg hover:shadow-xl hover:scale-105',
+  whatsapp:
+    'bg-whatsapp text-white hover:bg-whatsapp-hover focus:ring-green-500 shadow-lg hover:shadow-xl hover:scale-105',
+  outline:
+    'border-2 border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-white focus:ring-primary-500',
+  ghost: 'text-primary-700 hover:bg-primary-50 focus:ring-primary-500',
+};
+
+const sizes: Record<string, string> = {
+  sm: 'px-4 py-2 text-sm gap-1.5',
+  md: 'px-6 py-3 text-base gap-2',
+  lg: 'px-8 py-4 text-lg gap-2.5',
+};
+
+const classes = [baseClasses, variants[variant], sizes[size], fullWidth && 'w-full', className]
+  .filter(Boolean)
+  .join(' ');
+
+const externalProps = external ? { target: '_blank', rel: 'noopener noreferrer' } : {};
+---
+
+{
+  href ? (
+    <a href={href} class={classes} {...externalProps}>
+      <slot />
+    </a>
+  ) : (
+    <button type={type} class={classes}>
+      <slot />
+    </button>
+  )
+}
