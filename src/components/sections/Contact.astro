@@ -135,12 +135,11 @@ const whatsappUrl = getWhatsAppUrl();
             antes posible!
           </p>
 
-          <Button
-            variant="primary"
-            size="lg"
+          <a
             href={whatsappUrl}
-            external
-            class="bg-white text-primary-700 hover:bg-gray-100 hover:text-primary-800"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2.5 px-8 py-4 text-lg font-semibold rounded-full bg-white text-primary-700 hover:bg-gray-100 hover:text-primary-800 shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
           >
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -148,7 +147,7 @@ const whatsappUrl = getWhatsAppUrl();
               ></path>
             </svg>
             Escribir por WhatsApp
-          </Button>
+          </a>
         </div>
       </div>
     </div>

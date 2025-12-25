@@ -9,15 +9,14 @@ const currentYear = new Date().getFullYear();
     <div class="grid md:grid-cols-3 gap-8 mb-8">
       <!-- Brand -->
       <div>
-        <a href="#inicio" class="flex items-center gap-2 mb-4">
+        <a href="#inicio" class="flex items-center mb-4">
           <img
             src="/img/VaneStyle_logo.png"
             alt={siteConfig.name}
-            class="h-10 w-auto brightness-0 invert"
-            width="40"
-            height="40"
+            class="h-14 w-auto"
+            width="56"
+            height="56"
           />
-          <span class="font-script text-2xl">{siteConfig.name}</span>
         </a>
         <p class="text-white/70 text-sm">
           {siteConfig.tagline}
@@ -82,9 +81,6 @@ const currentYear = new Date().getFullYear();
       <p>
         &copy; {currentYear}
         {siteConfig.name}. Todos los derechos reservados.
-      </p>
-      <p class="mt-2">
-        Hecho con <span class="text-accent-400">&hearts;</span> en Colombia
       </p>
     </div>
   </div>
