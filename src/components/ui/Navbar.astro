@@ -9,8 +9,13 @@ const whatsappUrl = getWhatsAppUrl();
 <header
   class="fixed top-0 left-0 right-0 z-40 transition-all duration-300"
   x-data="{ mobileMenuOpen: false, scrolled: false }"
-  x-init="scrolled = window.scrollY > 100; window.addEventListener('scroll', () => { scrolled = window.scrollY > 100 })"
-  :class="scrolled ? 'bg-black/95 backdrop-blur-md shadow-md shadow-black/30' : 'bg-black/90 backdrop-blur-md'"
+  x-init="
+    scrolled = window.scrollY > 100;
+    const handler = () => { scrolled = window.scrollY > 100 };
+    window.addEventListener('scroll', handler, { passive: true });
+    $cleanup(() => window.removeEventListener('scroll', handler));
+  "
+  :class="scrolled ? 'bg-dark-primary/95 backdrop-blur-md shadow-md shadow-black/30' : 'bg-dark-primary/80 backdrop-blur-md'"
 >
   <nav class="container-custom">
     <div class="flex items-center justify-between h-16 md:h-20">

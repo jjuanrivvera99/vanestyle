@@ -35,7 +35,7 @@
   --color-lilac: #c8a2c8;
   --color-lilac-dark: #a87ba8;
 
-  /* Dark mode colors - Negro + Morado (ahora default) */
+  /* Base color palette — dark theme (permanent) */
   --color-dark-primary: #000000;
   --color-dark-secondary: #1a0f1f;
   --color-dark-tertiary: #2a1a30;
