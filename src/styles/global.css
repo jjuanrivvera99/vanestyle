@@ -35,6 +35,16 @@
   --color-lilac: #c8a2c8;
   --color-lilac-dark: #a87ba8;
 
+  /* Dark mode colors - Negro + Morado (ahora default) */
+  --color-dark-primary: #000000;
+  --color-dark-secondary: #1a0f1f;
+  --color-dark-tertiary: #2a1a30;
+  --color-dark-elevated: #3a2540;
+  --color-dark-text: #ffffff;
+  --color-dark-text-secondary: #e8d5e8;
+  --color-dark-text-muted: #c8a2c8;
+  --color-dark-border: #4a2252;
+
   /* Fonts */
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Poppins', system-ui, sans-serif;
@@ -51,6 +61,8 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-dark-primary);
+  color: var(--color-dark-text);
 }
 
 /* Headings */

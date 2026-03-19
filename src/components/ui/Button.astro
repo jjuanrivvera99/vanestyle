@@ -24,12 +24,13 @@ const baseClasses =
 
 const variants: Record<string, string> = {
   primary:
-    'bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-500 shadow-lg hover:shadow-xl hover:scale-105',
+    'bg-primary-700 text-white hover:bg-primary-800 focus:ring-primary-500 shadow-lg hover:shadow-xl hover:scale-105 dark:bg-primary-600 dark:hover:bg-primary-500',
   whatsapp:
     'bg-whatsapp text-white hover:bg-whatsapp-hover focus:ring-green-500 shadow-lg hover:shadow-xl hover:scale-105',
   outline:
-    'border-2 border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-white focus:ring-primary-500',
-  ghost: 'text-primary-700 hover:bg-primary-50 focus:ring-primary-500',
+    'border-2 border-primary-700 text-primary-700 hover:bg-primary-700 hover:text-white focus:ring-primary-500 dark:border-primary-400 dark:text-primary-400 dark:hover:bg-primary-600 dark:hover:border-primary-600',
+  ghost:
+    'text-primary-700 hover:bg-primary-50 focus:ring-primary-500 dark:text-primary-400 dark:hover:bg-dark-tertiary',
 };
 
 const sizes: Record<string, string> = {

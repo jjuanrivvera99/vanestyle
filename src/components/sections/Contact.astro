@@ -5,15 +5,15 @@ import Button from '@components/ui/Button.astro';
 const whatsappUrl = getWhatsAppUrl();
 ---
 
-<section id="contacto" class="py-20 md:py-28 bg-white">
+<section id="contacto" class="py-20 md:py-28 bg-black">
   <div class="container-custom">
     <div class="grid md:grid-cols-2 gap-12 items-center">
       <!-- Info -->
       <div data-aos="fade-right">
-        <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+        <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark-text mb-6">
           ¿Lista para unas uñas increíbles?
         </h2>
-        <p class="text-gray-600 text-lg mb-8">
+        <p class="text-dark-text-secondary text-lg mb-8">
           Agenda tu cita por WhatsApp y voy a donde estés con todo el equipo profesional. ¡Sin
           complicaciones!
         </p>
@@ -24,7 +24,7 @@ const whatsappUrl = getWhatsAppUrl();
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            class="flex items-center gap-4 p-4 bg-green-50 rounded-xl hover:bg-green-100 transition-colors group"
+            class="flex items-center gap-4 p-4 bg-green-900/20 rounded-xl hover:bg-green-900/30 transition-colors group"
           >
             <div
               class="w-12 h-12 bg-whatsapp rounded-full flex items-center justify-center flex-shrink-0"
@@ -36,16 +36,16 @@ const whatsappUrl = getWhatsAppUrl();
               </svg>
             </div>
             <div>
-              <p class="font-semibold text-gray-900 group-hover:text-whatsapp transition-colors">
+              <p class="font-semibold text-dark-text group-hover:text-whatsapp transition-colors">
                 WhatsApp
               </p>
-              <p class="text-gray-600">{siteConfig.contact.whatsapp.display}</p>
+              <p class="text-dark-text-secondary">{siteConfig.contact.whatsapp.display}</p>
             </div>
           </a>
 
           <a
             href={`mailto:${siteConfig.contact.email.contact}`}
-            class="flex items-center gap-4 p-4 bg-primary-50 rounded-xl hover:bg-primary-100 transition-colors group"
+            class="flex items-center gap-4 p-4 bg-primary-900/20 rounded-xl hover:bg-primary-900/30 transition-colors group"
           >
             <div
               class="w-12 h-12 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0"
@@ -60,16 +60,18 @@ const whatsappUrl = getWhatsAppUrl();
               </svg>
             </div>
             <div>
-              <p class="font-semibold text-gray-900 group-hover:text-primary-700 transition-colors">
+              <p
+                class="font-semibold text-dark-text group-hover:text-primary-400 transition-colors"
+              >
                 Email
               </p>
-              <p class="text-gray-600">{siteConfig.contact.email.contact}</p>
+              <p class="text-dark-text-secondary">{siteConfig.contact.email.contact}</p>
             </div>
           </a>
 
-          <div class="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
+          <div class="flex items-center gap-4 p-4 bg-dark-tertiary rounded-xl">
             <div
-              class="w-12 h-12 bg-gray-600 rounded-full flex items-center justify-center flex-shrink-0"
+              class="w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center flex-shrink-0"
             >
               <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
@@ -86,8 +88,8 @@ const whatsappUrl = getWhatsAppUrl();
               </svg>
             </div>
             <div>
-              <p class="font-semibold text-gray-900">Ubicación</p>
-              <p class="text-gray-600">
+              <p class="font-semibold text-dark-text">Ubicación</p>
+              <p class="text-dark-text-secondary">
                 {siteConfig.business.serviceType} - {siteConfig.business.location}
               </p>
             </div>
@@ -95,9 +97,9 @@ const whatsappUrl = getWhatsAppUrl();
         </div>
 
         <!-- Schedule -->
-        <div class="bg-gray-50 rounded-xl p-6">
-          <h3 class="font-heading font-semibold text-gray-900 mb-4">Horarios de Atención</h3>
-          <div class="space-y-2 text-gray-600">
+        <div class="bg-dark-tertiary rounded-xl p-6">
+          <h3 class="font-heading font-semibold text-dark-text mb-4">Horarios de Atención</h3>
+          <div class="space-y-2 text-dark-text-secondary">
             <div class="flex justify-between">
               <span>Lunes - Viernes</span>
               <span class="font-medium">{siteConfig.business.schedule.weekdays}</span>
@@ -108,7 +110,9 @@ const whatsappUrl = getWhatsAppUrl();
             </div>
             <div class="flex justify-between">
               <span>Domingo</span>
-              <span class="font-medium text-gray-400">{siteConfig.business.schedule.sunday}</span>
+              <span class="font-medium text-dark-text-muted"
+                >{siteConfig.business.schedule.sunday}</span
+              >
             </div>
           </div>
         </div>
@@ -116,11 +120,9 @@ const whatsappUrl = getWhatsAppUrl();
 
       <!-- CTA Card -->
       <div data-aos="fade-left">
-        <div
-          class="bg-gradient-to-br from-primary-700 to-accent-500 rounded-3xl p-8 md:p-10 text-white text-center"
-        >
+        <div class="bg-primary-900 rounded-3xl p-8 md:p-10 text-white text-center">
           <div
-            class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6"
+            class="w-20 h-20 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-6"
           >
             <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
               <path

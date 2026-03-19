@@ -9,30 +9,36 @@ const whatsappUrl = getWhatsAppUrl();
 
 <section
   id="inicio"
-  class="relative min-h-screen flex items-center pt-20 pb-8 lg:py-28 overflow-hidden bg-gradient-to-br from-primary-700 via-primary-600 to-accent-400"
+  class="relative min-h-screen flex items-center pt-20 pb-8 lg:py-28 overflow-hidden bg-black"
 >
   <!-- Background Pattern -->
-  <div class="absolute inset-0 opacity-10">
-    <div class="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
-    <div class="absolute bottom-20 right-10 w-96 h-96 bg-accent-300 rounded-full blur-3xl"></div>
+  <div class="absolute inset-0 opacity-20">
+    <div class="absolute top-20 left-10 w-72 h-72 bg-primary-600 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-10 w-96 h-96 bg-accent-500 rounded-full blur-3xl"></div>
   </div>
 
   <div class="container-custom relative z-10">
     <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
       <!-- Content -->
-      <div class="text-center md:text-left" data-aos="fade-right">
-        <h1 class="font-script text-5xl md:text-6xl lg:text-7xl text-white mb-4 drop-shadow-lg">
-          {siteConfig.name}
+      <div class="flex flex-col items-center text-center" data-aos="fade-right">
+        <h1 class="mb-4">
+          <img
+            src="/img/VaneStyle_logo.png"
+            alt={siteConfig.name}
+            class="h-48 md:h-64 lg:h-80 w-auto drop-shadow-[0_8px_30px_rgba(255,255,255,0.5)]"
+            width="200"
+            height="200"
+          />
         </h1>
         <p class="text-2xl md:text-3xl text-white/90 font-heading font-semibold mb-6">
           {siteConfig.tagline}
         </p>
-        <p class="text-lg text-white/80 mb-8 max-w-lg mx-auto md:mx-0">
+        <p class="text-lg text-white/80 mb-8 max-w-lg">
           Servicios profesionales de manicure, pedicure y uñas acrílicas.
           <span class="font-semibold">Voy a donde estés.</span>
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+        <div class="flex flex-col sm:flex-row gap-4">
           <Button variant="whatsapp" size="lg" href={whatsappUrl} external>
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path
@@ -52,9 +58,7 @@ const whatsappUrl = getWhatsAppUrl();
         </div>
 
         <!-- Trust badges -->
-        <div
-          class="mt-10 flex flex-wrap gap-6 justify-center md:justify-start text-white/90 text-sm"
-        >
+        <div class="mt-10 flex flex-wrap gap-6 text-white/90 text-sm">
           <div class="flex items-center gap-2">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path
@@ -103,9 +107,9 @@ const whatsappUrl = getWhatsAppUrl();
         </div>
 
         <!-- Decorative elements -->
-        <div class="absolute -top-4 -right-4 w-24 h-24 bg-accent-300/30 rounded-full blur-2xl">
+        <div class="absolute -top-4 -right-4 w-24 h-24 bg-accent-500/30 rounded-full blur-2xl">
         </div>
-        <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-primary-400/30 rounded-full blur-2xl">
+        <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-primary-500/30 rounded-full blur-2xl">
         </div>
       </div>
     </div>

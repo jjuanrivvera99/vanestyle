@@ -8,14 +8,14 @@ const popularServices = getPopularServices();
 const whatsappUrl = getWhatsAppUrl('Hola! Me interesa conocer más sobre sus servicios');
 ---
 
-<section id="servicios" class="py-20 md:py-28 bg-gray-50">
+<section id="servicios" class="py-20 md:py-28 bg-dark-secondary">
   <div class="container-custom">
     <!-- Header -->
     <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
-      <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark-text mb-4">
         Nuestros Servicios
       </h2>
-      <p class="text-gray-600 text-lg">
+      <p class="text-dark-text-secondary text-lg">
         Servicios profesionales de uñas con los mejores materiales. Todos los precios incluyen
         desplazamiento.
       </p>
@@ -24,7 +24,7 @@ const whatsappUrl = getWhatsAppUrl('Hola! Me interesa conocer más sobre sus ser
     <!-- Popular Services -->
     <div class="mb-12">
       <h3
-        class="text-xl font-heading font-semibold text-gray-800 mb-6 text-center"
+        class="text-xl font-heading font-semibold text-dark-text mb-6 text-center"
         data-aos="fade-up"
       >
         Más Populares
@@ -49,65 +49,65 @@ const whatsappUrl = getWhatsAppUrl('Hola! Me interesa conocer más sobre sus ser
 
     <!-- Additional Info -->
     <div
-      class="bg-white rounded-2xl p-6 md:p-8 shadow-md border border-gray-100"
+      class="bg-dark-tertiary rounded-2xl p-6 md:p-8 shadow-md shadow-black/20 border border-dark-border"
       data-aos="fade-up"
     >
       <div class="grid md:grid-cols-2 gap-8">
         <!-- Decoración -->
         <div>
-          <h4 class="font-heading font-semibold text-lg text-gray-900 mb-4">
+          <h4 class="font-heading font-semibold text-lg text-dark-text mb-4">
             Decoración y Diseños
           </h4>
-          <ul class="space-y-2 text-gray-600">
+          <ul class="space-y-2 text-dark-text-secondary">
             <li class="flex justify-between">
               <span>Diseño Francesa (Full Set)</span>
-              <span class="font-semibold text-primary-700">+{formatPrice(10000)}</span>
+              <span class="font-semibold text-primary-400">+{formatPrice(10000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Baby Boomer (Full Set)</span>
-              <span class="font-semibold text-primary-700">+{formatPrice(15000)}</span>
+              <span class="font-semibold text-primary-400">+{formatPrice(15000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Efectos (Ojo de Gato, Aurora)</span>
-              <span class="font-semibold text-primary-700">+{formatPrice(10000)}</span>
+              <span class="font-semibold text-primary-400">+{formatPrice(10000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Toque de Diseño (2-4 uñas)</span>
-              <span class="font-semibold text-primary-700">+{formatPrice(12000)}</span>
+              <span class="font-semibold text-primary-400">+{formatPrice(12000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Diseño Medio (6-8 uñas)</span>
-              <span class="font-semibold text-primary-700">+{formatPrice(18000)}</span>
+              <span class="font-semibold text-primary-400">+{formatPrice(18000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Diseño Avanzado</span>
-              <span class="font-semibold text-primary-700">Se cotiza</span>
+              <span class="font-semibold text-primary-400">Se cotiza</span>
             </li>
           </ul>
         </div>
 
         <!-- Adicionales -->
         <div>
-          <h4 class="font-heading font-semibold text-lg text-gray-900 mb-4">
+          <h4 class="font-heading font-semibold text-lg text-dark-text mb-4">
             Servicios Adicionales
           </h4>
-          <ul class="space-y-2 text-gray-600">
+          <ul class="space-y-2 text-dark-text-secondary">
             <li class="flex justify-between">
               <span>Retiro Semipermanente (sin set nuevo)</span>
-              <span class="font-semibold text-primary-700">{formatPrice(10000)}</span>
+              <span class="font-semibold text-primary-400">{formatPrice(10000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Retiro de Sistemas (Acrílico/Polygel)</span>
-              <span class="font-semibold text-primary-700">{formatPrice(25000)}</span>
+              <span class="font-semibold text-primary-400">{formatPrice(25000)}</span>
             </li>
             <li class="flex justify-between">
               <span>Reparación de uña (c/u)</span>
-              <span class="font-semibold text-primary-700">{formatPrice(8000)}</span>
+              <span class="font-semibold text-primary-400">{formatPrice(8000)}</span>
             </li>
           </ul>
 
-          <div class="mt-6 p-4 bg-accent-50 rounded-xl border border-accent-200">
-            <p class="text-sm text-accent-800">
+          <div class="mt-6 p-4 bg-accent-900/20 rounded-xl border border-accent-800">
+            <p class="text-sm text-accent-300">
               <strong>Nota:</strong> El retiro de semipermanente es
               <span class="font-semibold">CORTESÍA</span> si te realizas un nuevo set conmigo.
             </p>
@@ -118,7 +118,7 @@ const whatsappUrl = getWhatsAppUrl('Hola! Me interesa conocer más sobre sus ser
 
     <!-- CTA -->
     <div class="text-center mt-12" data-aos="fade-up">
-      <p class="text-gray-600 mb-4">¿Tienes dudas sobre algún servicio?</p>
+      <p class="text-dark-text-secondary mb-4">¿Tienes dudas sobre algún servicio?</p>
       <Button variant="whatsapp" size="lg" href={whatsappUrl} external>
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
           <path

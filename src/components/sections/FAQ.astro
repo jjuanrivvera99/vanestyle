@@ -5,14 +5,14 @@ import { generateFAQSchema } from '@utils/seo';
 const faqSchema = generateFAQSchema(faqItems);
 ---
 
-<section id="faq" class="py-20 md:py-28 bg-gray-50">
+<section id="faq" class="py-20 md:py-28 bg-dark-secondary">
   <div class="container-custom">
     <!-- Header -->
     <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
-      <h2 class="font-heading text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-dark-text mb-4">
         Preguntas Frecuentes
       </h2>
-      <p class="text-gray-600 text-lg">Resuelve tus dudas antes de agendar tu cita</p>
+      <p class="text-dark-text-secondary text-lg">Resuelve tus dudas antes de agendar tu cita</p>
     </div>
 
     <!-- FAQ Accordion -->
@@ -20,18 +20,18 @@ const faqSchema = generateFAQSchema(faqItems);
       {
         faqItems.map((item, index) => (
           <div
-            class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden"
+            class="bg-dark-tertiary rounded-xl shadow-sm shadow-black/10 border border-dark-border overflow-hidden"
             data-aos="fade-up"
             data-aos-delay={index * 50}
           >
             <button
-              class="w-full px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors"
+              class="w-full px-6 py-4 text-left flex items-center justify-between gap-4 hover:bg-dark-elevated transition-colors"
               x-on:click={`openItem = openItem === ${index} ? null : ${index}`}
               x-bind:aria-expanded={`openItem === ${index}`}
             >
-              <span class="font-heading font-semibold text-gray-900">{item.question}</span>
+              <span class="font-heading font-semibold text-dark-text">{item.question}</span>
               <svg
-                class="w-5 h-5 text-primary-600 flex-shrink-0 transition-transform duration-300"
+                class="w-5 h-5 text-primary-400 flex-shrink-0 transition-transform duration-300"
                 x-bind:class={`{ 'rotate-180': openItem === ${index} }`}
                 fill="none"
                 stroke="currentColor"
@@ -51,7 +51,7 @@ const faqSchema = generateFAQSchema(faqItems);
               x-collapse
               x-cloak
             >
-              <div class="px-6 pb-4 text-gray-600">{item.answer}</div>
+              <div class="px-6 pb-4 text-dark-text-secondary">{item.answer}</div>
             </div>
           </div>
         ))

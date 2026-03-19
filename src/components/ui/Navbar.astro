@@ -7,8 +7,10 @@ const whatsappUrl = getWhatsAppUrl();
 ---
 
 <header
-  class="fixed top-0 left-0 right-0 z-40 bg-white/90 backdrop-blur-md shadow-sm"
-  x-data="{ mobileMenuOpen: false }"
+  class="fixed top-0 left-0 right-0 z-40 transition-all duration-300"
+  x-data="{ mobileMenuOpen: false, scrolled: false }"
+  x-init="scrolled = window.scrollY > 100; window.addEventListener('scroll', () => { scrolled = window.scrollY > 100 })"
+  :class="scrolled ? 'bg-black/95 backdrop-blur-md shadow-md shadow-black/30' : 'bg-black/90 backdrop-blur-md'"
 >
   <nav class="container-custom">
     <div class="flex items-center justify-between h-16 md:h-20">
@@ -29,12 +31,13 @@ const whatsappUrl = getWhatsAppUrl();
           navLinks.map((link) => (
             <a
               href={link.href}
-              class="text-gray-700 hover:text-primary-700 font-medium transition-colors relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-700 after:transition-all hover:after:w-full"
+              class="font-medium transition-colors relative text-white/80 hover:text-primary-400 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-primary-400 after:transition-all hover:after:w-full"
             >
               {link.label}
             </a>
           ))
         }
+
         <Button variant="whatsapp" size="sm" href={whatsappUrl} external>
           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
             <path
@@ -47,7 +50,7 @@ const whatsappUrl = getWhatsAppUrl();
 
       <!-- Mobile Menu Button -->
       <button
-        class="md:hidden p-2 text-gray-700 hover:text-primary-700 transition-colors"
+        class="md:hidden p-2 text-white hover:text-primary-400 transition-colors"
         @click="mobileMenuOpen = !mobileMenuOpen"
         aria-label="Abrir menú"
         :aria-expanded="mobileMenuOpen"
@@ -94,18 +97,19 @@ const whatsappUrl = getWhatsAppUrl();
       x-transition:leave-end="opacity-0 -translate-y-2"
       x-cloak
     >
-      <div class="py-4 space-y-2 border-t border-gray-100">
+      <div class="py-4 space-y-2 border-t border-dark-border">
         {
           navLinks.map((link) => (
             <a
               href={link.href}
-              class="block py-2 px-4 text-gray-700 hover:text-primary-700 hover:bg-primary-50 rounded-lg font-medium transition-colors"
+              class="block py-2 px-4 text-white/80 hover:text-primary-400 hover:bg-dark-tertiary rounded-lg font-medium transition-colors"
               @click="mobileMenuOpen = false"
             >
               {link.label}
             </a>
           ))
         }
+
         <div class="pt-2 px-4">
           <Button variant="whatsapp" size="md" href={whatsappUrl} external fullWidth>
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
