@@ -12,7 +12,7 @@ export const faqItems: FAQItem[] = [
   {
     question: '¿Qué incluye el precio del servicio?',
     answer:
-      'Todos los materiales profesionales, herramientas esterilizadas, y el desplazamiento dentro del área de cobertura. No hay costos ocultos.',
+      'Todos los materiales profesionales y herramientas esterilizadas. No hay costos ocultos.',
   },
   {
     question: '¿Cuánto dura el semipermanente?',
@@ -42,6 +42,6 @@ export const faqItems: FAQItem[] = [
   {
     question: '¿Cómo agendo mi cita?',
     answer:
-      'Escríbeme por WhatsApp con tu ubicación, el servicio que deseas y tu disponibilidad. Te confirmo fecha y hora lo antes posible.',
+      'Escríbeme por WhatsApp con el servicio que deseas y tu disponibilidad. Te confirmo fecha y hora lo antes posible.',
   },
 ];
