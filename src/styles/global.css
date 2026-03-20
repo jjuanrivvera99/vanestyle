@@ -52,6 +52,11 @@
 }
 
 @layer base {
+  /* Hide Alpine.js elements before initialization */
+  [x-cloak] {
+    display: none !important;
+  }
+
   /* Smooth scroll */
   html {
     scroll-behavior: smooth;
