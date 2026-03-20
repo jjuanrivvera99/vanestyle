@@ -1,0 +1,639 @@
+[    2089ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ mobileMenuOpen: false, scrolled: false }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2113ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "scrolled ? 'bg-dark-primary/95 backdrop-blur-md shadow-md shadow-black/30' : 'bg-dark-primary/80 backdrop-blur-md'"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2113ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "
+    scrolled = window.scrollY > 100;
+    const handler = () => { scrolled = window.scrollY > 100 };
+    window.addEventListener('scroll', handler, { passive: true });
+    $cleanup(() => window.removeEventListener('scroll', handler));
+  "
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2113ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "mobileMenuOpen"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2114ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "mobileMenuOpen = !mobileMenuOpen"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2114ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "!mobileMenuOpen"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2116ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "mobileMenuOpen = false"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2125ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ openItem: null }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2125ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 0"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2125ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 0 ? null : 0"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2125ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 0 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 1"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 1 ? null : 1"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 1 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 2"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 2 ? null : 2"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 2 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 3"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 3 ? null : 3"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 3 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 4"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 4 ? null : 4"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2134ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 4 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2135ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 5"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2135ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 5 ? null : 5"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2135ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 5 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2135ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 6"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2152ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 6 ? null : 6"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 6 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem === 7"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "openItem = openItem === 7 ? null : 7"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ 'rotate-180': openItem === 7 }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "{ show: false }"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "
+    window.addEventListener('scroll', () => {
+      show = window.scrollY > 400;
+    });
+  "
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2153ms] [WARNING] Alpine Expression Error: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+
+Expression: "show"
+
+ JSHandle@node @ https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:0
+[    2502ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at L (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:133)
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34740)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2503ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2503ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at L (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:133)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:33619
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+[    2503ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:35122)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at L (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:133)
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34740)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2504ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2505ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2506ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2506ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2506ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:39405
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at zn (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34201)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at L (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:133)
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:34740)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at L (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:133)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:33619
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:12454)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+[    2507ms] EvalError: Evaluating a string as JavaScript violates the following Content Security Policy directive because 'unsafe-eval' is not an allowed source of script: script-src 'self' 'unsafe-inline'".
+
+    at new AsyncFunction (<anonymous>)
+    at https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:734
+    at xr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:958)
+    at yr (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:1003)
+    at Ve (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:325)
+    at m (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:176)
+    at Function.<anonymous> (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:35122)
+    at n (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3067)
+    at r (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3097)
+    at Er (https://vanestyle.netlify.app/_assets/Layout.astro_astro_type_script_index_1_lang.DUBunHUN.js:5:3107)

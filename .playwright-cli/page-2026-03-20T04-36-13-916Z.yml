@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - link "Saltar al contenido principal" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link "Vane Style" [ref=e6] [cursor=pointer]:
+          - /url: "#inicio"
+          - img "Vane Style" [ref=e7]
+        - button "Abrir menú" [ref=e8]:
+          - img [ref=e9]
+  - main [ref=e11]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - heading "Vane Style" [level=1] [ref=e19]:
+          - img "Vane Style" [ref=e20]
+        - paragraph [ref=e21]: Tu estilo, tus uñas
+        - paragraph [ref=e22]: Servicios profesionales de manicure, pedicure, uñas en polygel y más.
+        - generic [ref=e23]:
+          - link "Agendar Cita" [ref=e24] [cursor=pointer]:
+            - /url: https://wa.me/573157299583?text=Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20cita
+            - img [ref=e25]
+            - text: Agendar Cita
+          - link "Ver Servicios" [ref=e27] [cursor=pointer]:
+            - /url: "#servicios"
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - img [ref=e30]
+            - generic [ref=e32]: +50 clientas felices
+          - generic [ref=e33]:
+            - img [ref=e34]
+            - generic [ref=e36]: Materiales premium
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - generic [ref=e40]: Atención personalizada
+      - img "Manos elegantes con manicure profesional - Vane Style" [ref=e43]
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - heading "Nuestros Servicios" [level=2] [ref=e49]
+        - paragraph [ref=e50]: Servicios profesionales de uñas con los mejores materiales.
+      - generic [ref=e51]:
+        - heading "Más Populares" [level=3] [ref=e52]
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e55]:
+              - heading "Manicure Semipermanente" [level=3] [ref=e56]
+              - generic [ref=e57]: Popular
+            - paragraph [ref=e58]: Limpieza profunda + esmaltado en gel de larga duración
+            - generic [ref=e59]:
+              - generic [ref=e61]: $ 45.000
+              - generic [ref=e62]:
+                - img [ref=e63]
+                - text: 60 min
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - heading "Set Nuevo Polygel" [level=3] [ref=e67]
+              - generic [ref=e68]: Popular
+            - paragraph [ref=e69]: "Uñas esculpidas desde cero. Largo hasta #3"
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: Desde
+                - generic [ref=e73]: $ 95.000
+              - generic [ref=e74]:
+                - img [ref=e75]
+                - text: 2-3 horas
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - heading "Combo Full Color Semipermanente" [level=3] [ref=e79]
+              - generic [ref=e80]: Popular
+            - paragraph [ref=e81]: Manicure + Pedicure semipermanente
+            - generic [ref=e82]:
+              - generic [ref=e84]: $ 90.000
+              - generic [ref=e85]:
+                - img [ref=e86]
+                - text: 2 horas
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Manicura Tradicional" [level=3] [ref=e91]
+          - paragraph [ref=e92]: Limpieza + esmaltado tradicional
+          - generic [ref=e93]:
+            - generic [ref=e95]: $ 20.000
+            - generic [ref=e96]:
+              - img [ref=e97]
+              - text: 45 min
+        - generic [ref=e99]:
+          - heading "Pedicure Tradicional" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Limpieza, exfoliación básica + esmaltado tradicional
+          - generic [ref=e103]:
+            - generic [ref=e105]: $ 25.000
+            - generic [ref=e106]:
+              - img [ref=e107]
+              - text: 60 min
+        - generic [ref=e109]:
+          - heading "Pedicure Semipermanente" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Limpieza profunda, exfoliación básica + esmaltado en gel
+          - generic [ref=e113]:
+            - generic [ref=e115]: $ 50.000
+            - generic [ref=e116]:
+              - img [ref=e117]
+              - text: 75 min
+        - generic [ref=e119]:
+          - heading "Baño de Polygel" [level=3] [ref=e121]
+          - paragraph [ref=e122]: Capa de refuerzo sobre el largo de tu uña natural
+          - generic [ref=e123]:
+            - generic [ref=e125]: $ 70.000
+            - generic [ref=e126]:
+              - img [ref=e127]
+              - text: 90 min
+        - generic [ref=e129]:
+          - heading "Retoque de Sistemas" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Mantenimiento hasta 21 días
+          - generic [ref=e133]:
+            - generic [ref=e135]: $ 70.000
+            - generic [ref=e136]:
+              - img [ref=e137]
+              - text: 90 min
+        - generic [ref=e139]:
+          - heading "Combo Tradicional" [level=3] [ref=e141]
+          - paragraph [ref=e142]: Manicure + Pedicure tradicional
+          - generic [ref=e143]:
+            - generic [ref=e145]: $ 40.000
+            - generic [ref=e146]:
+              - img [ref=e147]
+              - text: 90 min
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - heading "Decoración y Diseños" [level=4] [ref=e152]
+          - list [ref=e153]:
+            - listitem [ref=e154]:
+              - generic [ref=e155]: Diseño Francesa (Full Set)
+              - generic [ref=e156]: +$ 10.000
+            - listitem [ref=e157]:
+              - generic [ref=e158]: Baby Boomer (Full Set)
+              - generic [ref=e159]: +$ 15.000
+            - listitem [ref=e160]:
+              - generic [ref=e161]: Efectos (Ojo de Gato, Aurora)
+              - generic [ref=e162]: +$ 10.000
+            - listitem [ref=e163]:
+              - generic [ref=e164]: Toque de Diseño (2-4 uñas)
+              - generic [ref=e165]: +$ 12.000
+            - listitem [ref=e166]:
+              - generic [ref=e167]: Diseño Medio (6-8 uñas)
+              - generic [ref=e168]: +$ 18.000
+            - listitem [ref=e169]:
+              - generic [ref=e170]: Diseño Avanzado
+              - generic [ref=e171]: Se cotiza
+        - generic [ref=e172]:
+          - heading "Servicios Adicionales" [level=4] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - generic [ref=e176]: Retiro Semipermanente (sin set nuevo)
+              - generic [ref=e177]: $ 7.000
+            - listitem [ref=e178]:
+              - generic [ref=e179]: Retiro de Sistemas (Polygel)
+              - generic [ref=e180]: $ 20.000
+            - listitem [ref=e181]:
+              - generic [ref=e182]: Reparación de uña (c/u)
+              - generic [ref=e183]: $ 8.000
+          - paragraph [ref=e185]:
+            - strong [ref=e186]: "Nota:"
+            - text: El retiro de semipermanente es CORTESÍA si te realizas un nuevo set conmigo.
+      - generic [ref=e187]:
+        - paragraph [ref=e188]: ¿Tienes dudas sobre algún servicio?
+        - link "Consultar por WhatsApp" [ref=e189] [cursor=pointer]:
+          - /url: https://wa.me/573157299583?text=Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20sus%20servicios
+          - img [ref=e190]
+          - text: Consultar por WhatsApp
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - heading "Galería de Trabajos" [level=2] [ref=e195]
+        - paragraph [ref=e196]: Algunos de mis diseños favoritos. ¿Tienes una idea? ¡La hacemos realidad!
+      - generic [ref=e197]:
+        - generic [ref=e198] [cursor=pointer]:
+          - img "French Elegante - Diseño de uñas por Vane Style" [ref=e199]
+          - generic [ref=e201]:
+            - paragraph [ref=e202]: French Elegante
+            - paragraph [ref=e203]: French
+        - generic [ref=e204] [cursor=pointer]:
+          - img "Diseño Floral - Diseño de uñas por Vane Style" [ref=e205]
+          - generic [ref=e207]:
+            - paragraph [ref=e208]: Diseño Floral
+            - paragraph [ref=e209]: Nail Art
+        - generic [ref=e210] [cursor=pointer]:
+          - img "Geométrico Moderno - Diseño de uñas por Vane Style" [ref=e211]
+          - generic [ref=e213]:
+            - paragraph [ref=e214]: Geométrico Moderno
+            - paragraph [ref=e215]: Diseño
+        - generic [ref=e216] [cursor=pointer]:
+          - img "Ombre Rosa - Diseño de uñas por Vane Style" [ref=e217]
+          - generic [ref=e219]:
+            - paragraph [ref=e220]: Ombre Rosa
+            - paragraph [ref=e221]: Ombre
+        - generic [ref=e222] [cursor=pointer]:
+          - img "Glitter Celebración - Diseño de uñas por Vane Style" [ref=e223]
+          - generic [ref=e225]:
+            - paragraph [ref=e226]: Glitter Celebración
+            - paragraph [ref=e227]: Glitter
+        - generic [ref=e228] [cursor=pointer]:
+          - img "Natural Elegante - Diseño de uñas por Vane Style" [ref=e229]
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: Natural Elegante
+            - paragraph [ref=e233]: Natural
+      - generic [ref=e234]:
+        - paragraph [ref=e235]: ¿Quieres ver más trabajos?
+        - link "Sígueme en Instagram" [ref=e236] [cursor=pointer]:
+          - /url: https://instagram.com/vanestyle.peluqueria
+          - img [ref=e237]
+          - text: Sígueme en Instagram
+          - img [ref=e239]
+    - generic [ref=e242]:
+      - generic [ref=e243]:
+        - heading "Preguntas Frecuentes" [level=2] [ref=e244]
+        - paragraph [ref=e245]: Resuelve tus dudas antes de agendar tu cita
+      - generic [ref=e246]:
+        - button "¿Cómo agendo mi cita?" [ref=e248]:
+          - generic [ref=e249]: ¿Cómo agendo mi cita?
+          - img [ref=e250]
+        - button "¿Qué incluye el precio del servicio?" [ref=e253]:
+          - generic [ref=e254]: ¿Qué incluye el precio del servicio?
+          - img [ref=e255]
+        - button "¿Cuánto dura el semipermanente?" [ref=e258]:
+          - generic [ref=e259]: ¿Cuánto dura el semipermanente?
+          - img [ref=e260]
+        - button "¿Cuánto duran las uñas en polygel?" [ref=e263]:
+          - generic [ref=e264]: ¿Cuánto duran las uñas en polygel?
+          - img [ref=e265]
+        - button "¿El retiro de semipermanente es gratis?" [ref=e268]:
+          - generic [ref=e269]: ¿El retiro de semipermanente es gratis?
+          - img [ref=e270]
+        - button "¿Puedo ver diseños antes de decidir?" [ref=e273]:
+          - generic [ref=e274]: ¿Puedo ver diseños antes de decidir?
+          - img [ref=e275]
+        - button "¿Qué métodos de pago aceptas?" [ref=e278]:
+          - generic [ref=e279]: ¿Qué métodos de pago aceptas?
+          - img [ref=e280]
+        - button "¿Cómo agendo mi cita?" [ref=e283]:
+          - generic [ref=e284]: ¿Cómo agendo mi cita?
+          - img [ref=e285]
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - heading "¿Lista para unas uñas increíbles?" [level=2] [ref=e291]
+        - paragraph [ref=e292]: Agenda tu cita por WhatsApp. ¡Sin complicaciones!
+        - generic [ref=e293]:
+          - link "WhatsApp +57 315 729 9583" [ref=e294] [cursor=pointer]:
+            - /url: https://wa.me/573157299583?text=Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20cita
+            - img [ref=e296]
+            - generic [ref=e298]:
+              - paragraph [ref=e299]: WhatsApp
+              - paragraph [ref=e300]: +57 315 729 9583
+          - link "Email contact@vanestyle.com.co" [ref=e301] [cursor=pointer]:
+            - /url: mailto:contact@vanestyle.com.co
+            - img [ref=e303]
+            - generic [ref=e305]:
+              - paragraph [ref=e306]: Email
+              - paragraph [ref=e307]: contact@vanestyle.com.co
+          - generic [ref=e308]:
+            - img [ref=e310]
+            - generic [ref=e313]:
+              - paragraph [ref=e314]: Ubicación
+              - paragraph [ref=e315]: Barrio Ciudad Pacífica, Cali, Colombia
+        - generic [ref=e316]:
+          - heading "Horarios de Atención" [level=3] [ref=e317]
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - generic [ref=e320]: Lunes - Viernes
+              - generic [ref=e321]: 9:00 AM - 6:00 PM
+            - generic [ref=e322]:
+              - generic [ref=e323]: Sábado
+              - generic [ref=e324]: 9:00 AM - 4:00 PM
+            - generic [ref=e325]:
+              - generic [ref=e326]: Domingo
+              - generic [ref=e327]: Cerrado
+      - generic [ref=e329]:
+        - img [ref=e331]
+        - heading "Agenda tu cita ahora" [level=3] [ref=e333]
+        - paragraph [ref=e334]: Escríbeme por WhatsApp con el servicio que deseas y tu disponibilidad. ¡Te respondo lo antes posible!
+        - link "Escribir por WhatsApp" [ref=e335] [cursor=pointer]:
+          - /url: https://wa.me/573157299583?text=Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20cita
+          - img [ref=e336]
+          - text: Escribir por WhatsApp
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - link "Vane Style" [ref=e342] [cursor=pointer]:
+            - /url: "#inicio"
+            - img "Vane Style" [ref=e343]
+          - paragraph [ref=e344]: Tu estilo, tus uñas
+        - generic [ref=e345]:
+          - heading "Enlaces Rápidos" [level=4] [ref=e346]
+          - list [ref=e347]:
+            - listitem [ref=e348]:
+              - link "Servicios" [ref=e349] [cursor=pointer]:
+                - /url: "#servicios"
+            - listitem [ref=e350]:
+              - link "Galería" [ref=e351] [cursor=pointer]:
+                - /url: "#galeria"
+            - listitem [ref=e352]:
+              - link "Preguntas Frecuentes" [ref=e353] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=e354]:
+              - link "Contacto" [ref=e355] [cursor=pointer]:
+                - /url: "#contacto"
+        - generic [ref=e356]:
+          - heading "Síguenos" [level=4] [ref=e357]
+          - generic [ref=e358]:
+            - link "Instagram" [ref=e359] [cursor=pointer]:
+              - /url: https://instagram.com/vanestyle.peluqueria
+              - img [ref=e360]
+            - link "Facebook" [ref=e362] [cursor=pointer]:
+              - /url: https://facebook.com/vanestyle.peluqueria
+              - img [ref=e363]
+      - paragraph [ref=e366]: © 2026 Vane Style. Todos los derechos reservados.
