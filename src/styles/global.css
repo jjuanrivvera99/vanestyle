@@ -51,30 +51,32 @@
   --font-script: 'Dancing Script', cursive;
 }
 
-/* Smooth scroll */
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
+@layer base {
+  /* Smooth scroll */
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
 
-/* Body defaults */
-body {
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: var(--color-dark-primary);
-  color: var(--color-dark-text);
-  overflow-x: hidden;
-}
+  /* Body defaults */
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-dark-primary);
+    color: var(--color-dark-text);
+    overflow-x: hidden;
+  }
 
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--font-heading);
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
 }
 
 /* Custom utilities */
