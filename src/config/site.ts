@@ -2,8 +2,7 @@ export const siteConfig = {
   // Basic info
   name: 'Vane Style',
   tagline: 'Tu estilo, tus uñas',
-  description:
-    'Servicios profesionales de manicure, pedicure, uñas acrílicas y polygel a domicilio en Cali, Colombia',
+  description: 'Servicios profesionales de manicure, pedicure y uñas en polygel en Cali, Colombia',
 
   // URLs
   url: 'https://vanestyle.com.co',
@@ -39,11 +38,12 @@ export const siteConfig = {
     type: 'NailSalon',
     foundedYear: 2020,
     location: 'Cali, Colombia',
+    neighborhood: 'Ciudad Pacífica',
     city: 'Cali',
     region: 'Valle del Cauca',
     country: 'Colombia',
     serviceArea: ['Cali', 'Valle del Cauca'],
-    serviceType: 'Domicilio / En casa',
+    serviceType: 'Presencial',
     priceRange: '$20.000 - $95.000+ COP',
     schedule: {
       weekdays: '9:00 AM - 6:00 PM',
@@ -55,16 +55,16 @@ export const siteConfig = {
   // SEO
   seo: {
     titleTemplate: '%s | Vane Style',
-    defaultTitle: 'Vane Style - Uñas Profesionales a Domicilio en Cali',
+    defaultTitle: 'Vane Style - Uñas Profesionales en Cali',
     keywords: [
       'manicure Cali',
       'pedicure Cali',
-      'uñas acrílicas Cali',
+      'uñas polygel Cali',
       'polygel Cali',
       'nail art',
-      'uñas a domicilio Cali',
+      'uñas Cali',
       'salón de uñas Cali',
-      'manicure a domicilio Cali',
+      'manicure Cali profesional',
       'Valle del Cauca',
       'Colombia',
     ],

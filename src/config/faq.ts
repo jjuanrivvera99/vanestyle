@@ -5,9 +5,9 @@ export interface FAQItem {
 
 export const faqItems: FAQItem[] = [
   {
-    question: '¿Cómo funciona el servicio a domicilio?',
+    question: '¿Cómo agendo mi cita?',
     answer:
-      'Agenda tu cita por WhatsApp, confirmo disponibilidad y voy a tu ubicación con todo el equipo profesional necesario. Solo necesitas un espacio cómodo con buena iluminación.',
+      'Escríbeme por WhatsApp, confirmo disponibilidad y agendamos tu cita. Trabajo con materiales profesionales y herramientas esterilizadas para garantizar la mejor calidad.',
   },
   {
     question: '¿Qué incluye el precio del servicio?',
@@ -20,7 +20,7 @@ export const faqItems: FAQItem[] = [
       'El esmaltado semipermanente dura entre 2-3 semanas sin despegarse ni perder brillo, dependiendo del cuidado.',
   },
   {
-    question: '¿Cuánto duran las uñas acrílicas o polygel?',
+    question: '¿Cuánto duran las uñas en polygel?',
     answer:
       'Con el cuidado adecuado, duran 3-4 semanas. Se recomienda hacer retoque cada 2-3 semanas para mantenerlas perfectas.',
   },

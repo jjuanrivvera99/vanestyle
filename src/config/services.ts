@@ -14,7 +14,7 @@ export type ServiceCategory = 'manicure' | 'pedicure' | 'sistemas' | 'combos' | 
 export const categoryLabels: Record<ServiceCategory, string> = {
   manicure: 'Manicure',
   pedicure: 'Pedicure',
-  sistemas: 'Sistemas (Acrílico/Polygel)',
+  sistemas: 'Sistemas (Polygel)',
   combos: 'Combos Especiales',
   adicionales: 'Adicionales',
 };
@@ -24,7 +24,7 @@ export const services: Service[] = [
   {
     id: 'manicure-tradicional',
     name: 'Manicura Tradicional',
-    description: 'Limpieza profunda + esmaltado tradicional',
+    description: 'Limpieza + esmaltado tradicional',
     price: 20000,
     duration: '45 min',
     category: 'manicure',
@@ -51,17 +51,17 @@ export const services: Service[] = [
   {
     id: 'pedicure-semipermanente',
     name: 'Pedicure Semipermanente',
-    description: 'Limpieza, exfoliación básica + esmaltado en gel',
+    description: 'Limpieza profunda, exfoliación básica + esmaltado en gel',
     price: 50000,
     duration: '75 min',
     category: 'pedicure',
   },
 
-  // Sistemas
+  // Sistemas — acrílico removed temporarily while Vane learns the technique. Re-add when ready.
   {
-    id: 'set-acrilico',
-    name: 'Set Nuevo Acrílico / Polygel',
-    description: 'Uñas esculpidas desde cero. Largo corto #1-#2',
+    id: 'set-polygel',
+    name: 'Set Nuevo Polygel',
+    description: 'Uñas esculpidas desde cero. Largo hasta #3',
     price: 95000,
     priceFrom: true,
     duration: '2-3 horas',
@@ -69,8 +69,8 @@ export const services: Service[] = [
     popular: true,
   },
   {
-    id: 'bano-acrilico',
-    name: 'Baño de Acrílico / Polygel',
+    id: 'bano-polygel',
+    name: 'Baño de Polygel',
     description: 'Capa de refuerzo sobre el largo de tu uña natural',
     price: 70000,
     duration: '90 min',
@@ -110,13 +110,13 @@ export const additionalServices = [
     id: 'retiro-semi',
     name: 'Retiro de Semipermanente',
     description: 'Sin set nuevo',
-    price: 10000,
+    price: 7000,
   },
   {
     id: 'retiro-sistemas',
     name: 'Retiro de Sistemas',
-    description: 'Acrílico / Polygel',
-    price: 25000,
+    description: 'Polygel',
+    price: 20000,
   },
   {
     id: 'reparacion',

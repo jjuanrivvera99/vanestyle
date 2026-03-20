@@ -54,6 +54,7 @@
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* Body defaults */
@@ -63,6 +64,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color-dark-primary);
   color: var(--color-dark-text);
+  overflow-x: hidden;
 }
 
 /* Headings */
